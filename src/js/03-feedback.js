@@ -16,7 +16,6 @@ console.log(formData);
 gettingFormData();
 
 function onInputFormChange(event) {
-  console.log((formData[event.target.name] = event.target.value));
   formData[event.target.name] = event.target.value;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
 }
