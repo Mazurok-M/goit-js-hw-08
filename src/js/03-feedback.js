@@ -11,7 +11,6 @@ const STORAGE_KEY = 'feedback-form-state';
 
 const formData = {};
 
-console.log(formData);
 
 gettingFormData();
 
